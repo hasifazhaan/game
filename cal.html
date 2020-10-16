@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<head>
+    <title>Document</title>
+    <style>
+    body{           position: absolute;
+                    
+    				background-color:;
+    				}
+    #display{   
+                    font-family: CSD-Block-Bold;
+                                    font-size: 20px;
+                    text-align: right;
+                    
+    				height:40px;
+    				width:350px;
+    				background-color:white;
+    				border-top-color: transparent;
+                    border-left-color: transparent;
+                    border-right-color: transparent;
+                    border-bottom: 5px solid black;    			
+    				}
+    				.but1{
+   
+    								height:80px;
+    								width:80px;
+                                    font-family: CSD-Block-Bold;
+                                    font-size: 30px;
+    								color:white;
+    								background-color:orange;
+                                    border-color: orange;
+                                    border-radius: 50%;
+
+    								}
+    				#calcu
+    				{background-color:#fffffb;
+    				border-radius:30px;
+    								position: absolute;
+    							
+    								border:1px solid #1f2aad;
+    						
+    							
+    								}
+        #text{
+            position: absolute;
+            top:100px;
+            left:370px
+        }
+    </style>
+</head>
+<body
+<div id="calcu">
+<center><h1>CALCULATOR</h1></center>
+<div id="display">
+enter the number 
+</div>
+<div ><br>
+
+<button class="but1" onclick="num(1)">1</button>
+<button class="but1" onclick="num(2)">2</button>
+<button class="but1" onclick="num(3)">3</button>
+<button class="but1" onclick="num('*')">*</button>
+
+    </div>
+    <div>
+    <button class="but1" onclick="num(4)">4</button>
+<button class="but1" onclick="num(5)">5</button>
+<button class="but1" onclick="num(6)">6</button>
+<button class="but1" 
+onclick="num('/')">/</button>
+    </div>
+    <button class="but1" onclick="num(7)">7</button>
+<button class="but1" onclick="num(8)">8</button>
+<button class="but1" onclick="num(9)">9</button>
+<button class="but1" 
+onclick="num('-')">-</button>
+<div>
+    <button class="but1" onclick="num(0)">0</button>
+<button class="but1" onclick="num('.')">.</button>
+<button class="but1" onclick="num('=')">=</button>
+<button class="but1" 
+onclick="num('+')">+</button>
+    </div>
+</div>
+<strong id="text">OR<br>Enter here
+<input type="text" id="e" >
+<button onclick="evalua()"> submit</button>
+</strong>
+    <script src="cal.js"></script>
+</body>
+</html>
