@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(71, 69, 69);
+    color:rgb(243, 238, 209);
+    text-align: center;
+}
+.but1{
+    padding:50px;
+    height:90px;
+    width:180px;
+    font-family: CSD-Block-Bold;
+    font-size: 30px;
+    color:white;
+    background-color:rgb(54, 29, 75);
+    border:none;
+    border-radius: 10px;
+    margin:.5%;
+}
+#calcu{
+
+    color: rgb(232, 230, 238);
+}
+#display{
+    font-size:30px;
+}
+#e{
+    font-size: 40px;
+    padding-left: 60%;
+    background-color: rgb(71, 69, 69);
+    border:none;
+    color:white
+}
+.but1:hover{
+    background-color:rgb(103, 74, 128);
+}
+#e:hover{
+ background-color: rgb(126, 111, 111);
+
+}
+
+    
