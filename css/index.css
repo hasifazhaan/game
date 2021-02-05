@@ -1,0 +1,42 @@
+body{
+    font-size:30px;
+    background-color: rgb(71, 69, 69);
+    color:rgb(243, 238, 209);
+    text-align: center
+}
+.but{
+    padding:20px;
+    height:90px;
+    width:180px;
+    font-family: CSD-Block-Bold;
+    font-size: 30px;
+    color:white;
+    background-color:rgb(54, 29, 75);
+    border:none;
+    border-radius: 10px;
+    margin-block: 5px
+}
+#heading{
+    color: rgb(232, 230, 238);
+}
+#button-container{
+    font-size:30px;
+    display: grid;
+    grid-template-columns:  auto auto auto auto auto  ;
+
+}
+#display{
+    font-size: 40px;
+    background-color: rgb(71, 69, 69);
+    border:none;
+    color:white;
+}
+.but:hover{
+    background-color:rgb(103, 74, 128);
+}
+#display:hover{
+ background-color: rgb(126, 111, 111);
+
+}
+
+    
